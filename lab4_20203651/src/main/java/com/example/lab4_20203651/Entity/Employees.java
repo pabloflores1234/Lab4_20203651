@@ -32,7 +32,7 @@ public class Employees {
     private String Ciudad;
 
     @Column(name = "phone_number", nullable = true, length = 45)
-    private Integer phone_number;
+    private String phone_number;
 
     @Column(name = "salary", nullable = true)
     private Double salary;
